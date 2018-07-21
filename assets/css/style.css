@@ -1,0 +1,45 @@
+body {
+    background-color: #ffb6c1;
+}
+#timer {
+    color: white;
+    font-family: cursive;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+#score {
+    visibility: hidden;
+    background: #f7a583;
+    color: white;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 600px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px;
+    font-size: 24px;
+}
+#lohanQuiz {
+    margin-left: 10px;
+    background-color: hsl(357, 92%, 80%);
+    padding: 10px 20px 10px 20px;
+    width: 400 px;
+    border-radius: 20px;
+    float: left;
+}
+input {
+    margin-bottom: 20px;
+}
+#other {
+    height: 25px;
+    padding-left: 15px;
+}
+#done {
+    background-color: #f7baa1;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    transition-duration: .5s;
+    border-radius: 5px;
+    margin-top: 25px;
+}

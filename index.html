@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QUIZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+   
+    <div style="font-weight: bold" id = "timer"></div>
+
+    <form id = "lohanQuiz" name = "lohanQuiz">
+
+        <p>In what country is Lohan Nightclub located?</p>
+        <input id = "multi" type = "radio" name = "question1" value = "France"> France<br>
+        <input id = "multi" type = "radio" name = "question1" value = "Italy"> Italy<br>
+        <input id = "multi" type = "radio" name = "question1" value = "Greece"> Greece<br>
+
+        <p>What icon did Lohan channel in her 2008 shoot with Bert Stern?</p>
+        <input id = "multi" type = "radio" name = "question2" value = "Monroe"> Monroe<br>
+        <input id = "multi" type = "radio" name = "question2" value = "Cher"> Cher<br>
+        <input id = "multi" type = "radio" name = "question2" value = "Garbo"> Garbo<br>
+
+        <p>What was LL's most #iconic fashion moment in 2017?</p>
+        <input id = "multi" type = "radio" name = "question3" value = "Headscarves"> Headscarves<br>
+        <input id = "multi" type = "radio" name = "question3" value = "Burkini"> Burkini<br>
+        <input id = "multi" type = "radio" name = "question3" value = "Jeans on the red carpet"> Jeans on the red carpet<br>
+
+
+        <p>For which film was LiLo robbed a oscar?</p>
+        <input id = "multi" type = "radio" name = "question4" value = "Herbie: Fully Loaded"> Herbie: Fully Loaded<br>
+        <input id = "multi" type = "radio" name = "question4" value = "Life-Size"> Life-Size<br>
+        <input id = "multi" type = "radio" name = "question4" value = "Get a Clue"> Get a Clue<br>
+        <input id = "other" type = "text" name = "question4" placeholder = "Other"><br>
+
+        <input id = "done" type = "button" value = "Tell me that it's over" onclick = "tally();">
+
+    </form>
+
+    <div id = "score">
+        <p id = "alerts"></p>
+        <p id = "correct">GROOL! Now you can go to Sears fatty.</p>
+        <img id = "picture">
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
